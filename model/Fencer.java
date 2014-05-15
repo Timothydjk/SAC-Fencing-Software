@@ -2,15 +2,17 @@ package model;
 /*
  * Data Storage Class for Fencer Data.
  */
-public class Fencer {
-
+public class Fencer extends Participant {
+	//some constants
+	static boolean MALE = false;
+	static boolean FEMALE = true;
 
 
 	//Last Name, First Name, Middle Initial, Nickname, Rating Letter (foil, epee, sabre), Club, Birth Month/Year/Day, USFA #, Rating Year.
-	String LName, FName, MI, NName, RatingF, RatingE, RatingS, Club;
-	int BY, USFAID, RYF, RYE, RYS;
+	private String LName, FName, MI, NName, RatingF, RatingE, RatingS, Club;
+	private int BY, USFAID, RYF, RYE, RYS;
 	//False for male True for female...
-	boolean gender = false;
+	private boolean gender = false;
 	
 	
 	/*
