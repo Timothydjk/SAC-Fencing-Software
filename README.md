@@ -1,8 +1,8 @@
-SAC-Fencing-Software
-====================
+#SAC-Fencing-Software
 
-Importing into Eclipse
-=====================
+A "Fencing Time" software for SAC-formatted tournaments.
+
+##Importing into Eclipse
 This assumes you have already cloned the repository somewhere on your computer.
 
 1. The first thing you need to do is download the EE version of Eclipse from the Eclipse website. On their download page it should be called something like "Eclipse IDE for Java EE Developers".
@@ -15,7 +15,5 @@ This assumes you have already cloned the repository somewhere on your computer.
 
 5. Now the project should appear in the package explorer, but it is not recognized as a java project. Right click on the project and go to Properties. Go to "Project Facets" and click "Convert to Faceted form...". In the list check Java and click apply.
 
-Setting Up Eclipse
-==================
-
+##Setting Up Eclipse
 1. Make sure to add the res/ folder to your build path
