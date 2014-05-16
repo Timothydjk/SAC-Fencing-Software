@@ -12,7 +12,7 @@ public class LoadScenes {
     public Scene mainScreen;
 
     public LoadScenes() throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("../../../res/screens/sample.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("../../../res/screens/poolScoreScreen.fxml"));
         mainScreen = new Scene(root, 600, 400);
     }
 

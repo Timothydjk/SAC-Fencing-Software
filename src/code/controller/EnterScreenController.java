@@ -9,6 +9,6 @@ public class EnterScreenController {
     private Text actiontarget;
 
     @FXML protected void enterAction(ActionEvent event) {
-        actiontarget.setText("This will switch to main screen...");
+        actiontarget.setText("This will switch to main screen... eventually...");
     }
 }
